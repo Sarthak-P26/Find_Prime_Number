@@ -4,6 +4,9 @@ def finding_prime(num):
             print(f"{num} is a prime number")
         elif num % numbers == 0:
             print(f"{num} is not a prime number")
+            break
+    else:
+        print(f"{num} is a prime number")
         
     
             
