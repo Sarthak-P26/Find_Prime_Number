@@ -7,6 +7,15 @@ def finding_prime(num):
             break
     else:
         print(f"{num} is a prime number")
+
+def taking_input():
+    while True:
+        try:
+            num_input = int(input("Enter the Number: "))
+        except ValueError:
+            print("Enter the valid value...")
+  
+        
         
     
             
