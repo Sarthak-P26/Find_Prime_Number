@@ -14,7 +14,9 @@ def taking_input():
             num_input = int(input("Enter the Number: "))
         except ValueError:
             print("Enter the valid value...")
-  
+        if num_input > 1 :
+            break
+    return num_input
         
         
     
