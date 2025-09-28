@@ -17,6 +17,12 @@ def taking_input():
         if num_input > 1 :
             break
     return num_input
+
+def main():
+    num_input = taking_input()
+    finding_prime(num_input)
+        
+
         
         
     
