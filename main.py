@@ -21,6 +21,9 @@ def taking_input():
 def main():
     num_input = taking_input()
     finding_prime(num_input)
+
+if __name__ == "__main__":
+    main()
         
 
         
